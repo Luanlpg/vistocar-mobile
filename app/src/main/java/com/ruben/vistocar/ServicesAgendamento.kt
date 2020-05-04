@@ -15,30 +15,35 @@ object ServicesAgendamento {
         a.foto = "http://www.vistocar.com.br/template/imagens/img-home-1.png"
         agendamentos.add(a)
 
-        a.nome = "Veículos Modificados/ Alteração de Caracteristicas"
-        a.categoria = "2"
-        a.foto = "https://www.vistocar.com.br/template/imagens/img-home-2.png"
-        agendamentos.add(a)
+        val b = agendamento()
+        b.nome = "Veículos Modificados/ Alteração de Caracteristicas"
+        b.categoria = "2"
+        b.foto = "https://www.vistocar.com.br/template/imagens/img-home-2.png"
+        agendamentos.add(b)
 
-        a.nome = "Gás Natural Veicular (GNV)"
-        a.categoria = "3"
-        a.foto = "https://www.vistocar.com.br/template/imagens/img-home-3.png"
-        agendamentos.add(a)
+        val c = agendamento()
+        c.nome = "Gás Natural Veicular (GNV)"
+        c.categoria = "3"
+        c.foto = "https://www.vistocar.com.br/template/imagens/img-home-3.png"
+        agendamentos.add(c)
 
-        a.nome = "Transporte Produtos Perigosos"
-        a.categoria = "4"
-        a.foto = "https://www.vistocar.com.br/template/imagens/img-home-4.png"
-        agendamentos.add(a)
+        val d = agendamento()
+        d.nome = "Transporte Produtos Perigosos"
+        d.categoria = "4"
+        d.foto = "https://www.vistocar.com.br/template/imagens/img-home-4.png"
+        agendamentos.add(d)
 
-        a.nome = "Inspeção Mercosul (CITV)"
-        a.categoria = "5"
-        a.foto = "http://www.vistocar.com.br/template/imagens/img-home-5.png"
-        agendamentos.add(a)
+        val e = agendamento()
+        e.nome = "Inspeção Mercosul (CITV)"
+        e.categoria = "5"
+        e.foto = "http://www.vistocar.com.br/template/imagens/img-home-5.png"
+        agendamentos.add(e)
 
-        a.nome = "Alvarás de Taxis e Escolares"
-        a.categoria = "6"
-        a.foto = "http://www.vistocar.com.br/template/imagens/img-home-6.png"
-        agendamentos.add(a)
+        val f = agendamento()
+        f.nome = "Alvarás de Taxis e Escolares"
+        f.categoria = "6"
+        f.foto = "http://www.vistocar.com.br/template/imagens/img-home-6.png"
+        agendamentos.add(f)
 
         return agendamentos
     }
